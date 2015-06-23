@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Christopher Jones | Web Developer</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href='http://fonts.googleapis.com/css?family=Slabo+27px|Oswald|Raleway'
+    rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header class="slideExpandUp">
+      <a href="index.html" id="logo">
+        <h1>Christopher Jones</h1>
+        <h2>Front End Web Developer</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Technical Skills</a></li>
+          <li><a href="http://teamtreehouse.com/christopherjones8">Treehouse Profile</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper" class="fadeIn">
+          <img src="htmlcss.jpg" id="HTML5CSS3">
+          <p>HTML5 and CSS3 based development.</p>
+              <br><br>
+          <img src="treehouse.jpg" id="HTML5CSS3">
+          <p>Treehouse : A Growing Foundation<br><br><br>
+              <img src="treehousecourses.jpg" id="HTML5CSS3"><br>
+              Click "Treehouse Profile" to see completed coursework!
+         <br>
+              </p>
+          <img class="slideExpandUp" src="mobilefirst.jpg">
+          <p>Mobile first design.</p>
+          <p>
+
+      <footer class="floating">
+        <a href="http://twitter.com/cdzha"><img src="twitter.png" alt="Twitter Logo" class="social-icon"></a>
+
+      </footer>
+    </div>
+  </body>
+</html>
